@@ -57,11 +57,8 @@ npm run dev
 
 Abra http://localhost:3000.
 
-## Deploy na Vercel
+## Atualmente
 
-1. Suba o projeto no GitHub.
-2. Importe na Vercel.
-3. Em **Settings → Environment Variables**, adicione `VITE_SUPABASE_URL` e `VITE_SUPABASE_PUBLISHABLE_KEY`.
-4. Build padrão (`npm run build`) e output detectado automaticamente pela Vercel.
+# Acesse o projeto no Vercel
 
-> Este projeto usa TanStack Start. Para Vercel, pode ser necessário configurar o adapter Node/Vercel. A lógica é 100% client-side (Supabase no browser via RLS), então também é trivial portar para um Vite SPA puro se preferir.
+[Finova](https://finova-voucher.vercel.app)
