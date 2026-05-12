@@ -59,6 +59,4 @@ Abra http://localhost:3000.
 
 ## Atualmente
 
-# Acesse o projeto no Vercel
-
-[Finova](https://finova-voucher.vercel.app)
+Acesse o projeto com deploy no Vercel: [Finova](https://finova-voucher.vercel.app)
