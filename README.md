@@ -65,11 +65,3 @@ Abra http://localhost:3000.
 4. Build padrão (`npm run build`) e output detectado automaticamente pela Vercel.
 
 > Este projeto usa TanStack Start. Para Vercel, pode ser necessário configurar o adapter Node/Vercel. A lógica é 100% client-side (Supabase no browser via RLS), então também é trivial portar para um Vite SPA puro se preferir.
-
-## Migrar de Lovable Cloud para seu próprio Supabase
-
-1. Crie um projeto novo em https://supabase.com.
-2. Execute as migrations SQL no SQL Editor.
-3. Pegue `Project URL` e `anon public key` em **Settings → API**.
-4. Atualize `.env` (ou variáveis na Vercel).
-5. Pronto — o cliente Supabase é o oficial `@supabase/supabase-js`, sem nenhum acoplamento ao Lovable.
